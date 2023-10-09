@@ -22,6 +22,14 @@
     background-color: rgb(255, 192, 203);
 }
 
+.background-white {
+    background-color: ffffff;
+}
+
+.background-grey {
+    background-color: rgb(211, 211, 211);
+}
+
 /* Header */
 header {
     background-color: rgb(173, 216, 230);
@@ -90,21 +98,23 @@ header .wrapper nav ul {
     border-radius: 5px;
 }
 
-/* Column Right */
-.column2-right {
-    background-color: ffffff;
+/* General Column */
+.column2-right,
+.column2-left {
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.column2-right .column2-right-wrapper {
+.column2-right .column2-right-wrapper,
+.column2-left .column2-left-wrapper {
     height: 400px;
     width: 1000px;
     display: flex;
 }
 
+/* Column Right */
 .column2-right .column2-right-wrapper .main-content {
     width: 60%;
 }
@@ -114,20 +124,6 @@ header .wrapper nav ul {
 }
 
 /* Column Left */
-.column2-left {
-    background-color: rgb(211, 211, 211);
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.column2-left .column2-left-wrapper {
-    height: 400px;
-    width: 1000px;
-    display: flex;
-}
-
 .column2-left .column2-left-wrapper aside {
     width: 40%;
 }
